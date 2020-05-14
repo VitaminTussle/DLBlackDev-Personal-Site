@@ -9,10 +9,17 @@ class HomeContentDesktop extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListView(
       children: <Widget>[
-        Row(
-          children: <Widget>[
-            HomeDetails(),
-            Expanded(child: Center(child: ActionButton('My Github'))),
+        Column(
+          children: [
+            SizedBox(
+              height: 120
+            ),
+            Row(
+              children: <Widget>[
+                HomeDetails(),
+                Expanded(child: Center(child: ActionButton('My Github'))),
+              ]
+            )
           ]
         )
       ]
