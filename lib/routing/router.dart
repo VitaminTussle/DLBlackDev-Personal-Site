@@ -12,14 +12,15 @@ Route<dynamic> generateRoute(RouteSettings settings){
     // case ResumeRoute:
     //   return _getPageRoute(EpisodesView());
     default:
+      return null;
   }
 }
 
 PageRoute _getPageRoute(Widget child){
-  return _FadeRoute(child: child);
+  return _FadeRoute<FadeTransition>(child: child);
 }
 
-class _FadeRoute extends PageRouteBuilder{
+class _FadeRoute<T> extends PageRouteBuilder<T>{
   final Widget child;
   _FadeRoute({this.child}) :
   super(

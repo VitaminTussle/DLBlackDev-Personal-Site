@@ -1,5 +1,5 @@
-import 'package:basic_website/routing/route_names.dart';
-import 'package:basic_website/widgets/navigation_drawer/nav_drawer_header.dart';
+import 'package:DLBlackDev/routing/route_names.dart';
+import 'package:DLBlackDev/widgets/navigation_drawer/nav_drawer_header.dart';
 import 'package:flutter/material.dart';
 
 import 'drawer_item.dart';
@@ -18,7 +18,7 @@ class NavDrawer extends StatelessWidget {
       child: Column(
         children: <Widget>[
           NavDrawerHeader(),
-          DrawerItem('Resume', ResumeRoute, Icons.attach_file),
+          DrawerItem('Resume', ResumeRoute, Icons.description),
           DrawerItem('About', AboutRoute, Icons.help),
         ],
       ),

@@ -1,9 +1,10 @@
-import 'package:basic_website/routing/route_names.dart';
+import 'package:DLBlackDev/routing/route_names.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../../locator.dart';
 import '../../services/navigation_service.dart';
 import '../../services/download_service.dart';
+import '../../extensions/hover_extensions.dart';
 
 class NavBarItem extends StatelessWidget {
   final String title;
@@ -15,7 +16,9 @@ class NavBarItem extends StatelessWidget {
     return GestureDetector(
       onTap: (){
         if(title == 'About') locator<NavigationService>().navigateTo(AboutRoute);
-        else downloadFile('assets/Dustin Black - Resume - 5-12-20.pdf');
+        else downloadFile('assets/Dustin Black - Resume - 5-13-20.pdf');
+
+        if(Scaffold.of(context).isDrawerOpen) Navigator.pop(context);
       },
       child: Text(
         title,
@@ -24,7 +27,7 @@ class NavBarItem extends StatelessWidget {
           fontWeight: FontWeight.w500,
           color: Colors.white,
         ),
-      )
+      ).showCursorOnHover.slideOnHover
     );
   }
 }

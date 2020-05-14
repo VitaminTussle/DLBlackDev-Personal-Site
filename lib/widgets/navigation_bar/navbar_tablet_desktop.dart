@@ -1,4 +1,4 @@
-import 'package:basic_website/routing/route_names.dart';
+import 'package:DLBlackDev/routing/route_names.dart';
 import 'package:flutter/material.dart';
 import 'navbar_item.dart';
 import 'navbar_logo.dart';

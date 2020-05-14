@@ -3,20 +3,25 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "178f7062d49164c733f8396eed901058",
-"assets/assets/Dustin%2520Black%2520-%2520Resume%2520-%25205-12-20.pdf": "103effafde02aa7770951f5824498b79",
+  "assets/AssetManifest.json": "27cde49d3d4eba22d2bb1f6a66b1b279",
+"assets/assets/Dustin%20Black%20-%20Resume%20-%205-13-20.pdf": "cda809f852133e833d4dec7906566e33",
+"assets/assets/Dustin%2520Black%2520-%2520Resume%2520-%25205-13-20.pdf": "cda809f852133e833d4dec7906566e33",
+"assets/assets/fonts/Ubuntu-Regular.ttf": "2505bfbd9bde14a7829cc8c242a0d25c",
 "assets/assets/logo.png": "931a068c33c245ddd704f08150638575",
 "assets/assets/me.jpg": "2695fb9dafd6826968ec7486b663b784",
+"assets/Dustin%20Black%20-%20Resume%20-%205-13-20.pdf": "cda809f852133e833d4dec7906566e33",
 "assets/FontManifest.json": "01700ba55b08a6141f33e168c4a6c22f",
 "assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
-"assets/LICENSE": "5e7e3b3a4830b198227a03eb8d122461",
+"assets/fonts/Ubuntu-Regular.ttf": "2505bfbd9bde14a7829cc8c242a0d25c",
+"assets/LICENSE": "fcaa8f6ce428dc46b2c54f9048565e28",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
+"assets/RESUME%20UPDATE%20REMINDER.txt": "a165d31508c34bb25e2d5de0110590cf",
 "favicon.png": "e15375c6ae3f7e7baa02911f27644dba",
 "icons/Icon-192.png": "80eb3e03f897e74707c43608137f0564",
 "icons/Icon-512.png": "c9cd5def8ccc6202e577f6ac68aa0719",
-"index.html": "f7846069281f31133e9ec18b9651ed90",
-"/": "f7846069281f31133e9ec18b9651ed90",
-"main.dart.js": "1a2e966c8511a8ff64feb89b16b115b3",
+"index.html": "1353f2783616846132e4caf1ebdf34ff",
+"/": "1353f2783616846132e4caf1ebdf34ff",
+"main.dart.js": "fe25fdae5583bf97e547db2de68de68b",
 "manifest.json": "a982d59b09c009c888703ff6045bead9"
 };
 

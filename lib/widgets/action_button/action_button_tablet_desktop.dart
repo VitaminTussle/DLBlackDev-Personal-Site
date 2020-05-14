@@ -19,7 +19,7 @@ class CallToActionTabletDesktop extends StatelessWidget {
           color: Color.fromARGB(255, 120, 20, 220),
           borderRadius: BorderRadius.circular(5)
         )
-      )
+      ),
     );
   }
 }

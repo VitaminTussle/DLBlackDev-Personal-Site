@@ -1,6 +1,6 @@
-import 'package:basic_website/widgets/navigation_bar/navigation_bar.dart';
-import 'package:basic_website/widgets/centered_view/centered_view.dart';
-import 'package:basic_website/widgets/navigation_drawer/nav_drawer.dart';
+import 'package:DLBlackDev/widgets/navigation_bar/navigation_bar.dart';
+import 'package:DLBlackDev/widgets/centered_view/centered_view.dart';
+import 'package:DLBlackDev/widgets/navigation_drawer/nav_drawer.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import '../../locator.dart';
 import '../../services/navigation_service.dart';
@@ -16,7 +16,7 @@ class LayoutTemplate extends StatelessWidget {
     return ResponsiveBuilder(
       // key: key,
       builder: (context, sizingInformation) => Scaffold(
-        drawer: sizingInformation.deviceScreenType == DeviceScreenType.Mobile ? NavDrawer() : null,
+        drawer: sizingInformation.deviceScreenType == DeviceScreenType.mobile ? NavDrawer() : null,
         backgroundColor: Color(0xff232323),
         body: CenteredView(
           Column(

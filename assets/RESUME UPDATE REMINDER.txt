@@ -1,0 +1,4 @@
+When resume is updated, be sure to copy/paste it over to the other assets folder,
+as well as change its file reference name in pubspec.yaml and navbar_item.dart.
+
+Also, exclude this file from the GitHub upload.

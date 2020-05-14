@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
-
+import '../../extensions/hover_extensions.dart';
 import 'action_button_mobile.dart';
 import 'action_button_tablet_desktop.dart';
 
@@ -13,6 +13,6 @@ class ActionButton extends StatelessWidget {
     return ScreenTypeLayout(
       mobile: CallToActionMobile(title),
       tablet: CallToActionTabletDesktop(title),
-    );
+    ).showCursorOnHover;
   }
 }

@@ -1,4 +1,4 @@
-import 'package:basic_website/widgets/navigation_bar/navbar_item.dart';
+import 'package:DLBlackDev/widgets/navigation_bar/navbar_item.dart';
 import 'package:flutter/material.dart';
 
 class DrawerItem extends StatelessWidget {
