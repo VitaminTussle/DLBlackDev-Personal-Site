@@ -24821,7 +24821,7 @@ U.l7.prototype={
 D:function(a){var t=null
 return D.hD(t,new X.o6(N.US(L.jD(this.c,B.bm(C.j,t,18,C.F,t,t),t)),t),C.P,!1,t,t,t,t,t,t,t,t,t,t,new U.KD(this,a),t,t,t,t,t)}}
 U.KD.prototype={
-$0:function(){var t,s,r="assets/Dustin Black - Resume - 10-3-20.pdf"
+$0:function(){var t,s,r="assets/Dustin Black - Resume - 7-13-21.pdf"
 if(this.a.c==="About")$.EK().$1$0(u.mY).a.gbf().rr("about",u._)
 else{t=W.WI(r)
 t.download=r

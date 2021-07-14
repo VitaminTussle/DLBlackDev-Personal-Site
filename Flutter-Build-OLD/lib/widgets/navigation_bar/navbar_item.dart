@@ -16,7 +16,7 @@ class NavBarItem extends StatelessWidget {
     return GestureDetector(
       onTap: (){
         if(title == 'About') locator<NavigationService>().navigateTo(AboutRoute);
-        else downloadFile('assets/Dustin Black - Resume - 10-3-20.pdf');
+        else downloadFile('assets/Dustin Black - Resume - 7-13-21.pdf');
 
         if(Scaffold.of(context).isDrawerOpen) Navigator.pop(context);
       },
